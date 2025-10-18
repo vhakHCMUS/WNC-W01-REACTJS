@@ -55,10 +55,15 @@ npm run preview
 
 ## Deployment
 
-See [DEPLOYMENT_GUIDE.md](DEPLOYMENT_GUIDE.md) for detailed instructions on deploying to:
-- **Vercel** (Recommended)
-- **Netlify**
-- **GitHub Pages**
+See [DEPLOY_GUIDE.md](DEPLOY_GUIDE.md) for step-by-step instructions to deploy to GitHub Pages.
+
+**Quick summary:**
+1. Create a GitHub repo named `tic-tac-toe`
+2. Run: `git remote add origin https://github.com/YOUR_USERNAME/tic-tac-toe.git`
+3. Run: `git push -u origin main`
+4. Enable GitHub Pages in Settings → Pages
+5. Run: `git subtree push --prefix dist origin gh-pages`
+6. Access your game at: `https://YOUR_USERNAME.github.io/tic-tac-toe/`
 
 ## Project Structure
 
